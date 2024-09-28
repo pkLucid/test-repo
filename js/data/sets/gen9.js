@@ -2187,7 +2187,7 @@ var SETDEX_SV = {
         "Leader Brawly": {
             "level": 23,
             "ivs": null,
-            "item": "Fighting Gem",
+            "item": "Muscle Band",
             "ability": "Inner Focus",
             "nature": "Jolly",
             "teraType": null,
@@ -2253,7 +2253,7 @@ var SETDEX_SV = {
         "Leader Brawly": {
             "level": 23,
             "ivs": null,
-            "item": "Lum Berry",
+            "item": "Rocky Helmet",
             "ability": "Mold Breaker",
             "nature": "Jolly",
             "teraType": null,
@@ -2261,7 +2261,8 @@ var SETDEX_SV = {
             "moves": [
                 "Low Sweep",
                 "Wing Attack",
-                "U-turn"
+                "Thunder Punch",
+                "Agility"
             ],
             "index": 99
         },
@@ -2314,40 +2315,6 @@ var SETDEX_SV = {
             "index": 916
         }
     },
-    "Scrafty": {
-        "Leader Brawly": {
-            "level": 23,
-            "ivs": null,
-            "item": "Focus Sash",
-            "ability": "Moxie",
-            "nature": "Adamant",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "Drain Punch",
-                "Payback",
-                "Iron Head",
-                "Thunder Punch"
-            ],
-            "index": 100
-        },
-        "Swimmer Grace": {
-            "level": 68,
-            "ivs": null,
-            "item": "Focus Band",
-            "ability": "Moxie",
-            "nature": "Adamant",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "Close Combat",
-                "Payback",
-                "Poison Jab",
-                "Reversal"
-            ],
-            "index": 620
-        }
-    },
     "Annihilape": {
         "Leader Brawly": {
             "level": 23,
@@ -2361,7 +2328,7 @@ var SETDEX_SV = {
                 "Rage Fist",
                 "Rock Smash"
             ],
-            "index": 101
+            "index": 100
         },
         "Sr. and Jr. Kate & Joy": {
             "level": 70,
@@ -2430,20 +2397,20 @@ var SETDEX_SV = {
     },
     "Tauros-Paldea-Aqua": {
         "Leader Brawly": {
-            "level": 25,
+            "level": 24,
             "ivs": null,
-            "item": "Black Belt",
+            "item": "Expert Belt",
             "ability": "Intimidate",
             "nature": "Hardy",
             "teraType": null,
             "status": "Healthy",
             "moves": [
+                "Raging Bull",
                 "Double Kick",
-                "Aqua Jet",
-                "Bulldoze",
+                "Smart Strike",
                 "Rock Tomb"
             ],
-            "index": 102
+            "index": 101
         },
         "Camper Lawrence": {
             "level": 38,
@@ -2480,11 +2447,11 @@ var SETDEX_SV = {
     },
     "Tauros-Paldea-Blaze": {
         "Leader Brawly": {
-            "level": 25,
+            "level": 24,
             "ivs": null,
             "item": "Black Belt",
             "ability": "Intimidate",
-            "nature": "Hardy",
+            "nature": "Jolly",
             "teraType": null,
             "status": "Healthy",
             "moves": [
@@ -2493,7 +2460,7 @@ var SETDEX_SV = {
                 "Lash Out",
                 "Reversal"
             ],
-            "index": 103
+            "index": 102
         },
         "Ranger Lorenzo and Ranger Jenna": {
             "level": 68,
@@ -2510,6 +2477,76 @@ var SETDEX_SV = {
                 "Flame Charge"
             ],
             "index": 538
+        }
+    },
+    "Hariyama": {
+        "Leader Brawly": {
+            "level": 25,
+            "ivs": null,
+            "item": "Loaded Dice",
+            "ability": "Guts",
+            "nature": "Adamant",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Arm Thrust",
+                "Ice Punch",
+                "Payback",
+                "Bullet Punch"
+            ],
+            "index": 103
+        },
+        "Picnicker Angelina": {
+            "level": 38,
+            "ivs": null,
+            "item": "Flame Orb",
+            "ability": "Guts",
+            "nature": "Adamant",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Brick Break",
+                "Shadow Punch",
+                "Bullet Punch",
+                "Fake Out"
+            ],
+            "index": 276
+        },
+        "Hex Maniac Tammy": {
+            "level": 68,
+            "ivs": {
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "ability": "Thick Fat",
+            "nature": "Brave",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Close Combat",
+                "Headlong Rush",
+                "Heavy Slam",
+                "Fake Out"
+            ],
+            "index": 546
+        },
+        "Psychic Virgil and Gentleman Nate": {
+            "level": 68,
+            "ivs": {
+                "sp": 0
+            },
+            "item": "White Herb",
+            "ability": "Thick Fat",
+            "nature": "Brave",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Close Combat",
+                "Headlong Rush",
+                "Ice Punch",
+                "Fake Out"
+            ],
+            "index": 664
         }
     },
     "Fraxure": {
@@ -3715,7 +3752,7 @@ var SETDEX_SV = {
             "level": 30,
             "ivs": null,
             "item": "Mystic Water",
-            "ability": "Hyper Cutter",
+            "ability": "Shell Armor",
             "nature": "Adamant",
             "teraType": null,
             "status": "Healthy",
@@ -4772,6 +4809,22 @@ var SETDEX_SV = {
                 "Flash Cannon"
             ],
             "index": 809
+        },
+        "Elite Four Jasmine": {
+            "level": 90,
+            "ivs": null,
+            "item": "Booster Energy",
+            "ability": "Protosynthesis",
+            "nature": "Timid",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Earth Power",
+                "Thunderbolt",
+                "Flash Cannon",
+                "Tri Attack"
+            ],
+            "index": 972
         }
     },
     "Luxray": {
@@ -4974,22 +5027,6 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ],
             "index": 907
-        },
-        "Elite Four Jasmine": {
-            "level": 90,
-            "ivs": null,
-            "item": "Eject Pack",
-            "ability": "Iron Fist",
-            "nature": "Jolly",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "Close Combat",
-                "Thunder Punch",
-                "Ice Punch",
-                "Fake Out"
-            ],
-            "index": 971
         }
     },
     "Lycanroc": {
@@ -8338,60 +8375,6 @@ var SETDEX_SV = {
             "index": 275
         }
     },
-    "Hariyama": {
-        "Picnicker Angelina": {
-            "level": 38,
-            "ivs": null,
-            "item": "Flame Orb",
-            "ability": "Guts",
-            "nature": "Adamant",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "Brick Break",
-                "Shadow Punch",
-                "Bullet Punch",
-                "Fake Out"
-            ],
-            "index": 276
-        },
-        "Hex Maniac Tammy": {
-            "level": 68,
-            "ivs": {
-                "sp": 0
-            },
-            "item": "Focus Sash",
-            "ability": "Thick Fat",
-            "nature": "Brave",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "Close Combat",
-                "Headlong Rush",
-                "Heavy Slam",
-                "Fake Out"
-            ],
-            "index": 546
-        },
-        "Psychic Virgil and Gentleman Nate": {
-            "level": 68,
-            "ivs": {
-                "sp": 0
-            },
-            "item": "White Herb",
-            "ability": "Thick Fat",
-            "nature": "Brave",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "Close Combat",
-                "Headlong Rush",
-                "Ice Punch",
-                "Fake Out"
-            ],
-            "index": 664
-        }
-    },
     "Staraptor": {
         "Picknicker Diana and Camper Ethan": {
             "level": 38,
@@ -11565,6 +11548,22 @@ var SETDEX_SV = {
                 "Rock Slide"
             ],
             "index": 894
+        },
+        "Elite Four Jasmine": {
+            "level": 89,
+            "ivs": null,
+            "item": "Air Balloon",
+            "ability": "Clear Body",
+            "nature": "Adamant",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Meteor Mash",
+                "Psychic Fangs",
+                "Ice Punch",
+                "Trailblaze"
+            ],
+            "index": 974
         }
     },
     "Goodra-Hisui": {
@@ -11665,22 +11664,6 @@ var SETDEX_SV = {
                 "Stealth Rock"
             ],
             "index": 845
-        },
-        "Elite Four Jasmine": {
-            "level": 89,
-            "ivs": null,
-            "item": "Booster Energy",
-            "ability": "Quark Drive",
-            "nature": "Jolly",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "High Horsepower",
-                "Iron Head",
-                "Ice Spinner",
-                "Rock Slide"
-            ],
-            "index": 973
         }
     },
     "Great Tusk": {
@@ -12647,7 +12630,7 @@ var SETDEX_SV = {
         "Elite Four Whitney": {
             "level": 89,
             "ivs": null,
-            "item": "Covert Cloak",
+            "item": "Mental Herb",
             "ability": "Prankster",
             "nature": "Timid",
             "teraType": null,
@@ -13737,7 +13720,7 @@ var SETDEX_SV = {
         "Elite Four Jasmine": {
             "level": 90,
             "ivs": null,
-            "item": "Aguav Berry",
+            "item": "Sitrus Berry",
             "ability": "Levitate",
             "nature": "Modest",
             "teraType": null,
@@ -13748,7 +13731,7 @@ var SETDEX_SV = {
                 "Signal Beam",
                 "Electroweb"
             ],
-            "index": 972
+            "index": 975
         }
     },
     "Seismitoad": {
@@ -14763,6 +14746,24 @@ var SETDEX_SV = {
             "index": 616
         }
     },
+    "Scrafty": {
+        "Swimmer Grace": {
+            "level": 68,
+            "ivs": null,
+            "item": "Focus Band",
+            "ability": "Moxie",
+            "nature": "Adamant",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Close Combat",
+                "Payback",
+                "Poison Jab",
+                "Reversal"
+            ],
+            "index": 620
+        }
+    },
     "Cinderace": {
         "Swimmer Grace": {
             "level": 70,
@@ -15400,7 +15401,7 @@ var SETDEX_SV = {
         "Elite Four Jasmine": {
             "level": 89,
             "ivs": null,
-            "item": "Big Root",
+            "item": "Covert Cloak",
             "ability": "Telepathy",
             "nature": "Timid",
             "teraType": null,
@@ -15408,10 +15409,10 @@ var SETDEX_SV = {
             "moves": [
                 "Moonblast",
                 "Psychic",
-                "Draining Kiss",
-                "Energy Ball"
+                "Energy Ball",
+                "Draining Kiss"
             ],
-            "index": 975
+            "index": 973
         }
     },
     "Iron Leaves": {
@@ -15498,22 +15499,6 @@ var SETDEX_SV = {
                 "Volt Switch"
             ],
             "index": 940
-        },
-        "Elite Four Jasmine": {
-            "level": 90,
-            "ivs": null,
-            "item": "Blunder Policy",
-            "ability": "Quark Drive",
-            "nature": "Timid",
-            "teraType": null,
-            "status": "Healthy",
-            "moves": [
-                "Tachyon Cutter",
-                "Psychic",
-                "Focus Blast",
-                "Air Slash"
-            ],
-            "index": 976
         }
     },
     "Espathra": {
@@ -16259,20 +16244,20 @@ var SETDEX_SV = {
             "index": 799
         },
         "Elite Four Jasmine": {
-            "level": 90,
+            "level": 89,
             "ivs": null,
             "item": "Focus Sash",
             "ability": "Intimidate",
-            "nature": "Modest",
+            "nature": "Jolly",
             "teraType": null,
             "status": "Healthy",
             "moves": [
-                "Sandsear Storm",
-                "Earth Power",
-                "Sludge Bomb",
-                "Protect"
+                "Stomping Tantrum",
+                "Hammer Arm",
+                "Rock Slide",
+                "U-turn"
             ],
-            "index": 974
+            "index": 971
         }
     },
     "Zapdos": {
@@ -16959,6 +16944,24 @@ var SETDEX_SV = {
                 "Spiky Shield"
             ],
             "index": 970
+        }
+    },
+    "Melmetal": {
+        "Elite Four Jasmine": {
+            "level": 90,
+            "ivs": null,
+            "item": "White Herb",
+            "ability": "Iron Fist",
+            "nature": "Careful",
+            "teraType": null,
+            "status": "Healthy",
+            "moves": [
+                "Double Iron Bash",
+                "Thunder Punch",
+                "Superpower",
+                "Protect"
+            ],
+            "index": 976
         }
     },
     "Ursaluna-Bloodmoon": {
